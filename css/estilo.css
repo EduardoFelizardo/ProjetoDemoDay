@@ -1,0 +1,132 @@
+body{
+    margin: 0px;
+    flex-direction: column;
+    text-align: center;
+    background-color: lightyellow;
+    font-family: 'Indie Flower', cursive;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+header{
+    top: 0;
+    margin: 0;
+    display: flex;
+    color: white;
+    border-bottom: solid black 5px;
+    background-color: darkmagenta;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    height: 65px;
+}
+
+header img{
+    display: flex;
+    border-radius: 50px;
+    background-color: white;
+    margin-top: 5px;
+    margin-right: 35px;
+    height: 50px;
+    width: 50px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav a{
+    font-size: 20pt;
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+#progresso{
+    height: 15px;
+    width: 1px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+aside{
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transform: translateX(-310px);
+    transition: 1s;
+
+}
+
+aside.mostrando{
+    background-color: lightgray;
+    transform: translateX(0); 
+    border-right: solid 1px black;
+    border-bottom: solid 1px black;
+}
+
+.first img{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: solid 5px black; 
+}
+
+aside nav{
+    display: flex;
+    flex-direction: column;
+}
+
+aside nav a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20pt;
+    color: black;
+}
+
+#botaomenu{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    top: 5px;
+    right: -30px;
+    display: flex;
+    cursor: pointer;
+}
+
+#botaomenu img{
+    border: solid 5px black;
+    border-radius: 100%;
+}
+
+.first{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+footer{
+    background-color: darkmagenta;
+    border: solid black 2px;
+}
+
+footer a{
+    text-decoration: none;
+    color: purple;
+    font-size: 20pt;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
