@@ -1,13 +1,8 @@
 body{
-    margin: 0px;
-    /* flex-direction: column;
-    text-align: center;  */
+    margin: 0 auto;
     font-family: 'Indie Flower', cursive;
     font-size: 15pt;
     font-weight: bold;
-    /* display: flex; */
-    /* background: url('img/maps.png') repeat-x; */
-    /* width: 100%; */
 }
 
 header{
@@ -20,18 +15,18 @@ header{
     justify-content: space-between;
     position: fixed;
     width: 100vw;
-    height: 85px;
+    height: 13vh;
 }
 
 header img{
     display: flex;
     border-radius: 50px;
     background-color: white;
-    margin: 15px 35px 0 0;
+    margin: 15px 35px 0 3px;
     /* margin-top: 5px;
     margin-right: 35px; */
-    height: 50px;
-    width: 50px;
+    height: 8vh;
+    width: 14vw;
 }
 header nav{
     display: flex;
@@ -46,13 +41,15 @@ header nav a{
 }
 
 #progresso{
-    height: 15px;
+    height: 3vh;
     width: 1px;
     background-color: black;
     position: absolute;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
 }
 
 aside{
@@ -65,7 +62,6 @@ aside{
     position: relative;
     transform: translateX(-310px);
     transition: 1s;
-
 }
 
 aside.mostrando{
@@ -76,8 +72,8 @@ aside.mostrando{
 }
 
 .first img{
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     border-radius: 100%;
     border: solid 5px black; 
 }
@@ -94,9 +90,8 @@ aside nav a{
     color: black;
 }
 
-
 #botaomenu{
-    width: 50px;
+    width: 15vw;
     height: 50px;
     position: fixed;
     top: 5px;
@@ -111,33 +106,35 @@ aside nav a{
 }
 
 .first{
-    margin-top: 50px;
+    margin-top: 10vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
 }
 
 footer{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    border: 2px black solid;
+    border-top: solid black 5px;
+    background-color: darkmagenta;
 }
 
 footer img{
     width: 50px;
     height: 50px;
-    border-radius: 100px;
-    border: solid 3px black;
-    margin-top: 2px;
+    margin: 2px 2px 2px 2px;
+}
+
+.maps{
+    margin-bottom: -5px;
 }
 
 .maps img{
     width: 100%;
     height: 100%;
 }
-
 
 ::-webkit-scrollbar{
     width: 0;
