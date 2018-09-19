@@ -1,0 +1,5 @@
+17/09
+Nesse dia eu fiz o index e dividi as pagina, agora colocar conteudo e funções.
+
+19/09
+Criei uma pasta para fazer a landing page do projeto.
