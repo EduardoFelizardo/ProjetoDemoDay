@@ -38,3 +38,73 @@ header nav a{
     text-transform: uppercase;
     font-size: 20pt;
 }
+
+.download{
+    height: 90vh;
+    background: lightyellow;
+    margin: 0;
+    border: solid 0.1vh black;
+}
+
+section{
+    margin: 25px 50px 25px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section div h1{
+    text-align: center;
+}
+
+iframe{
+    height: 300px;
+    width: 200px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    height: 100%;
+    width: 100%;
+    border-top: solid black 0.3vh;
+    background-color: rgba(139, 0, 139, 0.39); 
+}
+
+footer div{
+    width: 80%;
+    padding: 1vw;
+}
+
+footer .redes{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .redes a img{
+    width: 50px;
+}
+
+footer .patrocinadores{
+    display: flex;
+    flex-direction: column;
+}
+
+footer .patrocinadores a{
+    text-decoration: none;
+    color: black;
+    flex-direction: column;
+    display: flex;
+}
+
+footer .agradecimento{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .agradecimento img{
+    width: 50px;
+}
