@@ -52,8 +52,8 @@ header nav a{
     border-bottom-left-radius: 100%;
 }
 
-aside{ 
-    margin: 30px 0 0 30px;
+aside{
+    margin: 30px 0 0 0;
     height: 75vh;
     width: 70vw;
     display: flex;
@@ -66,10 +66,8 @@ aside{
 }
 
 aside.mostrando{
-    background-color: lightgray;
-    transform: translateX(0); 
-    border-right: solid 1px black;
-    border-bottom: solid 1px black;
+    background-color: rgba(175, 175, 156, 0.4);
+    transform: translateX(0);
 }
 
 aside nav{
@@ -89,7 +87,7 @@ aside nav a{
     height: 50px;
     position: fixed;
     top: -25px;
-    right: -73px;
+    right: -105px;
     display: flex;
     cursor: pointer;
 }
