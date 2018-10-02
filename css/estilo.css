@@ -11,7 +11,7 @@ header{
     display: flex;
     color: white;
     border-bottom: solid black 5px;
-    background-color: darkmagenta;
+    background-color: #910279;
     justify-content: space-between;
     position: fixed;
     width: 100vw;
@@ -43,7 +43,7 @@ header nav a{
 #progresso{
     height: 3vh;
     width: 1px;
-    background-color: black;
+    background-color: #11001c;
     position: absolute;
     top: 0;
     left: 50%;
@@ -66,7 +66,7 @@ aside{
 }
 
 aside.mostrando{
-    background-color: rgba(175, 175, 156, 0.4);
+    background-color: rgba(41, 0, 37, 0.8);
     transform: translateX(0);
 }
 
@@ -79,7 +79,8 @@ aside nav a{
     padding: 10px;
     text-decoration: none;
     font-size: 20pt;
-    color: black;
+    color: white;
+    /* text-transform: uppercase; */
 }
 
 #botaomenu{
@@ -110,6 +111,11 @@ h3{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.first img{
+    width: 35vw;
+    height: 30vh;
 }
 
 .foto{
@@ -144,7 +150,7 @@ footer{
     justify-content: space-evenly;
     align-items: center;
     border-top: solid black 5px;
-    background-color: darkmagenta;
+    background-color: #910279;
 }
 
 footer img{
