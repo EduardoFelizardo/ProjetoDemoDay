@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/form.css">
     <script defer src="../script/script.js"></script>
     <title>Malu</title>
 </head>
@@ -27,35 +28,41 @@
     <section class="first">
         <h3>Suporte</h3>
         <!-- <img src="../img/icons/erro.gif" alt=""> -->
-        <form>
-            <div>
-                <p>Identificou um erro?</p>
-                <p>Reporte-nos</p>
-            </div>
-            <div>
-                <label for="nome">Em que página?</label>
-                <input type="text" id="nome" />
-            </div>
-            <div>
-                <label for="email">O que aparecia na tela?</label>
-                <input type="email" id="email" />
-            </div>
-            <div>
-                <label for="email">Tem certeza que foi um erro do app?</label>
-                <input type="radio" name="escolha" id="op1">sim
-                <input type="radio" name="escolha" id="op2">talvez
-                <input type="radio" name="escolha" id="op3">não
-            </div>
-            <button>Enviar</button>
-        </form>
+        <div class="container">
+            <form>
+                <ul class="flex-outer">
+                    <li>
+                        <label for="first-name">Aonde você encontrou o erro?</label>
+                        <input type="text" id="first-name" placeholder="Escreva aqui...">
+                    </li>
+                    <li>
+                        <label for="message">Expecifique a situação.</label>
+                        <textarea rows="6"  placeholder="Mande sua mensagem aqui"></textarea>
+                    </li>
+                    <li>
+                        <p>Tem certeza que foi erro do App?</p>
+                        <ul class="flex-inner">
+                            <li>
+                                <p><input type="radio" name="op">sim</p>
+                                <p><input type="radio" name="op">talvez</p>
+                                <p><input type="radio" name="op">nao</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <button type="submit">Cadastrar</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
     </section>
     <footer>
-        <div>
-            <a href="#"><img src="../img/icons/chat.png" alt=""></a>
-        </div>
-        <div>
-            <a href="#"><img src="../img/icons/grupo.png" alt=""></a>
-        </div>
-    </footer>
+            <div>
+                <a href="chat.html"><img src="../img/icons/chat.png" alt=""></a>
+            </div>
+            <div>
+                <a href="chats.html"><img src="../img/icons/grupo.png" alt=""></a>
+            </div>
+        </footer>
 </body>
 </html>

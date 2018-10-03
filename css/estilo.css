@@ -150,20 +150,26 @@ h3{
 }
 
 .gif img{
-    width: 80vw;
+    width: 65vw;
     height: 30vh;
+    border-radius: 100%;
 }
 
 form{
     margin: 5vh 5vw 5vh 5vw;
 }
 
-form div p{
+/* form div p{
     display: flex;
     align-items: center;
     justify-items: center;
     flex-direction: column;
 }
+
+form input{
+    width: 50%;
+    height: 75px;
+} */
 
 footer{
     display: flex;
@@ -181,6 +187,7 @@ footer img{
 
 .maps{
     margin-bottom: -5px;
+    margin-top: 13vh; 
 }
 
 .maps img{
