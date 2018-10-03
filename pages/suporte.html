@@ -26,9 +26,28 @@
     </header>
     <section class="first">
         <h3>Suporte</h3>
-        <img src="../img/icons/erro.gif" alt="">
-        <p>Identificou um erro? Reporte-nos</p>
-        <p>FORMULARIO AQUIIII</p>
+        <!-- <img src="../img/icons/erro.gif" alt=""> -->
+        <form>
+            <div>
+                <p>Identificou um erro?</p>
+                <p>Reporte-nos</p>
+            </div>
+            <div>
+                <label for="nome">Em que página?</label>
+                <input type="text" id="nome" />
+            </div>
+            <div>
+                <label for="email">O que aparecia na tela?</label>
+                <input type="email" id="email" />
+            </div>
+            <div>
+                <label for="email">Tem certeza que foi um erro do app?</label>
+                <input type="radio" name="escolha" id="op1">sim
+                <input type="radio" name="escolha" id="op2">talvez
+                <input type="radio" name="escolha" id="op3">não
+            </div>
+            <button>Enviar</button>
+        </form>
     </section>
     <footer>
         <div>

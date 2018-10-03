@@ -30,16 +30,39 @@
             <img src="../img/icons/gif.gif" alt="">
         </div>
         <div>
-            <h4>FORMULARIO AQUI</h4>
-        </div>
-    </section>
-    <footer>
-        <div>
-            <a href="#"><img src="../img/icons/chat.png" alt=""></a>
-        </div>
-        <div>
-            <a href="#"><img src="../img/icons/grupo.png" alt=""></a>
-        </div>
-    </footer>
-</body>
-</html>
+            <form action="http://formmail.kinghost.net/formmail.cgi" method="POST"> 
+                <input type="hidden" name="recipient" value="testeiseuemail@gmail.com"> <!-- Pode ser qualquer endereço de email -->
+                <input type="hidden" name="redirect" value="http://seudominio">
+                <input type="hidden" name="subject" value="teste de assunto">
+                <input type="hidden" name="email" value="email@doseudominio">
+                <p> 
+                    Nome:<br /> 
+                    <input type="text" size="30" name="nome"> 
+                </p>   
+                
+                <p>
+                    E-mail:<br /> 
+                    <input type="text" size="30" name="replyto"> 
+                </p>   
+                
+                <p> 
+                    Comentários:<br /> 
+                    <input type="text" size="35" name="Comentarios"> 
+                </p>   
+                
+                <p> 
+                    <input type="submit" name="BTEnvia" value="Enviar"> 
+                    <input type="reset" name="BTApaga" value="Apagar"> </p> 
+                </form>
+            </div>
+        </section>
+        <footer>
+            <div>
+                <a href="#"><img src="../img/icons/chat.png" alt=""></a>
+            </div>
+            <div>
+                <a href="#"><img src="../img/icons/grupo.png" alt=""></a>
+            </div>
+        </footer>
+    </body>
+    </html>

@@ -3,6 +3,7 @@ body{
     font-family: 'Indie Flower', cursive;
     font-size: 15pt;
     font-weight: bold;
+    background: rgba(201, 163, 49, 0.2);
 }
 
 header{
@@ -154,7 +155,14 @@ h3{
 }
 
 form{
-    margin: 0 0 150px 0;
+    margin: 5vh 5vw 5vh 5vw;
+}
+
+form div p{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
 }
 
 footer{
