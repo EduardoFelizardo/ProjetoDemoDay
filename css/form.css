@@ -53,8 +53,8 @@
 
 
 .flex-outer li textarea,input {
-    padding: 15px;
-    border: none;
+    padding: 5px;
+    border: solid 2px black;
 }
 
 .flex-outer li button {
@@ -71,4 +71,18 @@
 
 .flex-inner li {
     width: 100px;
+}
+
+form .butto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;  
+}
+
+.butto button{
+    height: 40px;
+    width: 100px;
+    background-color: purple;
+    text-transform: uppercase;
 }
