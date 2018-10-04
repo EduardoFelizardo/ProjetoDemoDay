@@ -1,0 +1,139 @@
+body {
+
+    height: 640px;
+    width: 360px;
+    margin: 0;
+    padding: 0;
+    background-color:#f5f5f5;
+    font-family: 'Comfortaa';
+
+}
+
+#setaback{
+
+    margin-left: 1px;
+    top: 22px;
+    position: absolute;
+}
+
+section{
+
+    height: 590px;
+    width: 360px;
+    display: flex;
+
+}
+
+#header{
+
+    top: 0;
+    height: 100px;
+    width: 360px;
+    background: linear-gradient(90deg, #910279 10%, #3068C9 100%);
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+    position: fixed;
+
+}
+
+.perfil{
+
+    height: 500px;
+    width: 330px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;   
+
+
+}
+
+#foto img{
+
+    height: 400px;
+    width: 330px;
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: fixed;
+    top: 50px;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.40);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.40);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.40);
+
+    
+}
+
+#bio{
+
+    height: 100px;
+    width: 330px;
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: fixed;
+    top: 450px;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.40);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.40);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.40);
+
+}
+
+#bio h2{
+
+    margin-left: 10px;
+    font-size: 20px;
+    font-style: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 8px;
+
+}
+
+#add{
+
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 423px;
+}
+
+
+
+#bio p{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+    line-height: 0.5;
+
+}
+
+#amigosemcomum{
+
+    line-height: 0.8;
+    color: blue;
+}
+
+footer{
+    
+    height: 49px;
+    width: 360px;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    border-top: solid 1px lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+
+}
+
+.menu a{
+
+    text-decoration:none;
+    padding-left: 25px;
+    padding-right: 25px;
+    align-items: center;
+    
+}

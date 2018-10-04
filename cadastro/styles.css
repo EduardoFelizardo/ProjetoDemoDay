@@ -1,0 +1,133 @@
+*{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #3062c9;
+  font-weight: 900;
+  background-image: url(https://78.media.tumblr.com/aa443d2f6454b9aed6aca5e7df75ddea/tumblr_p55zp3ZxPm1rqftngo1_1280.gif);
+  background-size: 100%;
+}
+
+form {
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  
+
+}
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="senha"],
+input[type="month"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: rgba(48, 104, 201, 0.411);
+  color: #3062c9;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+img{
+  color: rgba(41, 0, 37, 0.8);
+    transform: translateX(0);
+    opacity: 0.5;
+    width: 50px;
+    padding-bottom: 10px;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #11001c;
+  background-color: #20499b;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid ;
+  margin-bottom: 10px;
+  transition: all 0.7s ease;
+}
+
+.button:hover{
+  background-color: #3062c9;
+
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.job {
+  font-weight: 300;
+  display: inline;
+}
+
+.numero {
+  background-color: #3062c9;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 13px;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 480px) {
+
+  form {
+    max-width: 480px;
+  }
+
+}

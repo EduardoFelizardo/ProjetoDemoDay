@@ -1,0 +1,138 @@
+*{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+  }
+
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #3062c9;
+  font-weight: 900;
+  background-image: url(https://lh5.googleusercontent.com/-yUhphn1LOBY/U1ahUztz_cI/AAAAAAAADgM/uZExMqgGs8Q/w2048-h1281/blur.jpg);
+  background-size: 100%;
+	
+}
+
+h1#title {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 300;
+	color: white;
+	text-shadow: 0 0 10px rgba(0,0,0,0.8);
+	margin: 0 auto;
+	max-width: 100%;
+	text-align: center;
+	position: relative;
+	top: 0px;
+}
+
+img{
+	margin-top: 50px;
+	width: 150px;
+	height:180px;
+}
+
+h1#title span span {
+	font-weight: 400;
+}
+
+h2 {
+	text-transform: uppercase;
+	color: white;
+	font-weight: 400;
+	letter-spacing: 1px;
+	font-size: 1.4em;
+	line-height: 2.8em;
+}
+
+a {
+	text-decoration: none;
+	color: #3062c9;
+}
+
+a:hover {
+	color: #aeaeae;
+}
+
+p.small {
+	font-size: 0.8em;
+	margin: 20px 0 0;
+}
+
+
+.container {
+	margin: 0;
+}
+
+.login-box {
+	background-color: white;
+	max-width: 340px;
+	margin: 0 auto;
+	position: relative;
+	top: 80px;
+	padding-bottom: 30px;
+	border-radius: 5px;
+	box-shadow: 0 5px 50px rgba(0,0,0,0.4);
+	text-align: center;
+}
+
+.login-box .box-header {
+	background-color: #3062c9;
+	margin-top: 0;
+	border-radius: 5px 5px 0 0;
+}
+
+.login-box label {
+	font-weight: 700;
+	font-size: .8em;
+	color: #888;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	line-height: 2em;
+}
+
+.login-box input {
+	margin-bottom: 20px;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	font-size: 15px;
+	color: #4f0147;
+}
+
+.login-box input:focus {
+	outline: none;
+	border-color: #4f0147;
+	transition: 0.5s;
+	color: #4f0147;
+}
+
+.login-box button {
+	margin-top: 0px;
+	border: 0;
+	border-radius: 2px;
+	color: white;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 0.7em;
+	letter-spacing: 1px;
+	background-color: #4f0147;
+	cursor:pointer;
+	outline: none;
+}
+
+.login-box button:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+.login-box button:hover {
+	opacity: 0.7;
+	transition: 0.5s;
+}
+
+.selected {
+	color: #665851!important;
+	transition: 0.5s;
+}
+

@@ -1,0 +1,109 @@
+body {
+
+    height: 640px;
+    width: 360px;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+header{
+
+    height: 61px;
+    width: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+header a{
+
+    margin-left: 15px;
+
+}
+
+header h1{
+
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header img{
+
+    float: right;
+    padding-right: 15px;
+
+}
+
+#chatbox{
+    height: 579px;
+    width: 360px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: solid black 5px;
+    background-color: #910279;
+}
+
+footer img{
+    width: 50px;
+    height: 50px;
+    margin: 2px 2px 2px 2px;
+}
+
+/* 
+footer{
+
+    height: 64px;
+    width: 360px;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.chat{
+
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.mensagem{
+
+    border-radius: 20px;
+    border: solid 1px lightgray;
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    height: 30px;
+    width: 280px;
+}
+
+
+button{
+
+    border: solid 1px lightgray;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    background-color: #290025;
+    height:32px;
+    width: 32px;
+
+}
+
+#pap{
+
+    vertical-align: middle;
+    padding-right: 10px;
+
+
+} */
